@@ -1,0 +1,38 @@
+*{ box-sizing: border-box;}
+
+body{
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+
+
+}
+.header{
+  background-color:#ff9999;
+  padding:20px;
+  text-align:center;
+  font-family: "Marker Felt", fantasy;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-stretch: expanded;
+  color:white;
+  text-shadow: 3px 3px #ff5050;
+}
+
+.skills{
+  float:left;
+  background-color: #ffe6e6;
+  padding: 0px 20px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.skills h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.skills li{
+  list-style-type: none;
+
+}
