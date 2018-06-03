@@ -6,7 +6,7 @@ body{
 
 
 }
-.header{
+header{
   background-color:#ff9999;
   padding:20px;
   text-align:center;
@@ -17,6 +17,26 @@ body{
   color:white;
   text-shadow: 3px 3px #ff5050;
 }
+
+footer{
+  padding:10px;
+  bottom:0px;
+  background-color: #ff9999;
+  color:white;
+  text-align: right;
+}
+
+nav ul{
+  padding:10px;
+}
+
+nav ul li {
+  text-align: center;
+  display: inline;
+  margin:10px;
+  border-bottom: 2px solid grey;
+}
+
 
 .skills{
   float:left;
