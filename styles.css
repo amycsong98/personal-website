@@ -1,24 +1,25 @@
-*{ box-sizing: border-box;}
+* { box-sizing: border-box;}
 
-body{
+body {
   font-family: "Times New Roman", Times, serif;
   background-color: white;
-
-
 }
-header{
-  background-color:#ff9999;
-  padding:20px;
-  text-align:center;
+
+header {
+  background-color: #ff9999;
+  padding: 30px;
+  text-align: center;
   font-family: "Marker Felt", fantasy;
+  font-size: 28px;
   font-variant: small-caps;
   font-weight: normal;
-  font-stretch: expanded;
+  font-stretch: extra-expanded;
   color:white;
   text-shadow: 3px 3px #ff5050;
 }
 
-footer{
+footer {
+  clear:both;
   padding:10px;
   bottom:0px;
   background-color: #ff9999;
@@ -26,7 +27,9 @@ footer{
   text-align: right;
 }
 
-nav ul{
+nav ul {
+  clear:both;
+  font-size: 20px;
   padding:10px;
 }
 
@@ -37,8 +40,48 @@ nav ul li {
   border-bottom: 2px solid grey;
 }
 
+.container{
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.skills{
+.image{
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background-color: #5BCDE8;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay{
+  width:100%;
+}
+
+.text{
+  white-space: nowrap;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  word-break:keep-all;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.skills {
   float:left;
   background-color: #ffe6e6;
   padding: 0px 20px;
@@ -47,12 +90,17 @@ nav ul li {
   margin: 10px;
 }
 
-.skills h2 {
+#h_heading {
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+
+.skills h3 {
   text-decoration: underline;
   text-align: center;
 }
 
-.skills li{
+.skills li {
   list-style-type: none;
-
 }
