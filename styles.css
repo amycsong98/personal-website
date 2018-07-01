@@ -90,7 +90,7 @@ nav ul li {
   margin: 10px;
 }
 
-#h_heading {
+.h_heading {
   text-align: center;
   margin-top: 50px;
   border: 2px solid black;
@@ -103,4 +103,11 @@ nav ul li {
 
 .skills li {
   list-style-type: none;
+}
+
+@@media screen and (max-width: 600px) {
+  .nav ul li{
+    float: none;
+    width= 100:
+  }
 }

@@ -5,6 +5,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit:no">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="myScript.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
@@ -28,7 +29,7 @@
     </ul>
   </nav>
 
-  <div class = "container">
+  <div class ="container">
     <img src="me.png" alt="a photo of me" class="photo">
     <div class="overlay">
       <div class="text">Hello!<br> My name is Amy Song <br> and I am currently studying<br> <em>Computer Science</em> <br>and<br> <em>Mathematical Economics<em><br> at Colgate University. </div>
@@ -36,7 +37,7 @@
   </div>
 
   <content id="home">
-    <h2 id="h_heading">S K I L L S</h2>
+    <h2 class="h_heading">S K I L L S</h2>
     <div class="skills">
       <h3>Languages</h3>
       <u1>
@@ -62,6 +63,23 @@
       <ul>
         <li>Linux</li>
       </u1>
+    </div>
+  </content>
+
+  <content id="contact">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+        </div>
+        <div class= "form-group">
+          <label for="msg">Leave me a message:</label>
+          <input type="message" class="form-control" id="msg" placeholder="..." name = "msg">
+        </div>
+        <button type="sumbit" class = "btn btn-primary">Send</button>
+      </form>
     </div>
   </content>
 
