@@ -3,6 +3,7 @@
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: white;
+  color: black;
 }
 
 header {
@@ -105,7 +106,73 @@ nav ul li {
   list-style-type: none;
 }
 
-@@media screen and (max-width: 600px) {
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#contact{
+  padding: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+input[type=text], select, textarea{
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  resize:vertical;
+}
+
+#email{
+  width: 60%;
+}
+
+#msg{
+  width: 50%;
+  height: 150px;
+}
+
+label{
+  padding: 10px;
+  display: inline-block;
+
+}
+input[type=submit] {
+  background-color: pink;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+#submitButton {
+  display: inline-block;
+  padding: 10pt;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+#submitButton:hover {
+  background-color: red;
+}
+
+#submitButton:active {
+  background-color: salmon;
+  box-shadow: 0 5px #777
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 600px) {
   .nav ul li{
     float: none;
     width= 100:

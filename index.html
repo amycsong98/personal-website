@@ -24,8 +24,9 @@
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <li><a href="#projects">Projects</li>
+      <li><a href="#resume">Resume</li>
+      <li><a href="#contact">Contact</li>
     </ul>
   </nav>
 
@@ -66,19 +67,21 @@
     </div>
   </content>
 
+  <div class="clearfix"></div>
+
   <content id="contact">
-    <div class="container">
-      <h3>Contact Me</h3>
+    <div>
+      <h2 class="h_heading">Contact Me</h3>
       <form action="/action_page.php">
         <div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+          <input type="text" id="email" placeholder="Enter your email" name="email">
         </div>
         <div class= "form-group">
           <label for="msg">Leave me a message:</label>
-          <input type="message" class="form-control" id="msg" placeholder="..." name = "msg">
+          <input type="text" id="msg" placeholder="..." name = "msg">
         </div>
-        <button type="sumbit" class = "btn btn-primary">Send</button>
+        <button id="submitButton" type="submit">Send</button>
       </form>
     </div>
   </content>
