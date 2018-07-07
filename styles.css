@@ -1,73 +1,79 @@
 * { box-sizing: border-box;}
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: white;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  background-color: #EAE7DC;
   color: black;
 }
 
 header {
-  background-color: #ff9999;
   padding: 30px;
+  border: 5px solid black;
   text-align: center;
-  font-family: "Marker Felt", fantasy;
   font-size: 28px;
+  color: #000000;
+}
+
+header h1 {
+  padding: 10px;
   font-variant: small-caps;
   font-weight: normal;
-  font-stretch: extra-expanded;
-  color:white;
-  text-shadow: 3px 3px #ff5050;
+  font-style: italic;
+  background-color: #D8C3A5;
 }
 
 footer {
   clear:both;
   padding:10px;
   bottom:0px;
-  background-color: #ff9999;
+  background-color: #8E8D8A;
   color:white;
   text-align: right;
 }
 
-nav ul {
-  clear:both;
-  font-size: 20px;
-  padding:10px;
+#navBar ul{
+  list-style: none;
 }
 
-nav ul li {
-  text-align: center;
-  display: inline;
-  margin:10px;
-  border-bottom: 2px solid grey;
+#navBar ul li{
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
-.container{
-  position: relative;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+#navBar a{
+  text-decoration: none;
+  color: #8E8D8A;
 }
 
-.image{
+#navBar a:hover{
+  background-color: transparent;
+  color: #E85A4F;
+}
+
+#navBar a:active{
+  background-color: transparent;
+  color: #E98074
+}
+
+.fullPage {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+	padding-top: 85px;
+	padding-bottom: 25px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.photo{
+  margin-right: 0px;
   display: block;
   width: 50%;
-  height: auto;
-}
-
-.overlay{
-  position: absolute;
-  bottom:0;
-  left: 0;
-  right: 0;
-  background-color: #5BCDE8;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.container:hover .overlay{
-  width:100%;
+  height: 50%;
 }
 
 .text{
@@ -84,7 +90,7 @@ nav ul li {
 
 .skills {
   float:left;
-  background-color: #ffe6e6;
+  background-color: #D8C3A5;
   padding: 0px 20px;
   width: 200px;
   height: 200px;
@@ -92,6 +98,7 @@ nav ul li {
 }
 
 .h_heading {
+  clear: both;
   text-align: center;
   margin-top: 50px;
   border: 2px solid black;
@@ -115,7 +122,6 @@ nav ul li {
 }
 
 #contact{
-  padding: 50px;
   width: 100%;
   margin-bottom: 50px;
 }
