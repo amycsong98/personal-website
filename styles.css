@@ -64,12 +64,31 @@ footer {
 	  padding-bottom: 25px;
 }
 
+#aboutMe {
+  float: right;
+  padding: 30px;
+  width: 63%;
+  background-color: #E98074;
+}
 
-.photo{
-  margin-right: 0px;
+#aboutMe h3{
+  background-color: #E85A4F;
+  text-align: center;
+}
+
+#resume {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #D8C3A5;
+  width: 63%;
+  float: right;
+}
+
+.photo {
+  float: left;
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 35%;
 }
 
 .text{
@@ -101,6 +120,7 @@ footer {
 }
 
 .skills h3 {
+  background-color: #E98074;
   text-decoration: underline;
   text-align: center;
 }
@@ -136,6 +156,7 @@ footer {
 #socialMedia p {
   display: inline-block;
 }
+
 #socialMedia h3 {
   background-color: #E85A4F;
   text-align: center;
@@ -144,7 +165,10 @@ footer {
   width: 35%;
   padding: 20px;
   float: right;
-  border: 2px solid #E85A4F;
+}
+
+#sendMsg {
+  padding: 10px;
 }
 
 #contactForm {
@@ -186,9 +210,14 @@ footer {
 }
 
 #contactForm input[type=submit]:hover {
-  background-color: #E85A4F
+  background-color: #E85A4F;
 }
 
+#inprocess {
+  padding: 30px;
+  background-color: #D8C3A5;
+  height: 300px;
+}
 
 @media screen and (max-width: 600px) {
   .nav ul li{
