@@ -22,7 +22,7 @@
 <body>
   <!-- intro -->
   <header>
-    <h1>Amy Song</h1>
+    <h1>AMY chaeyeon SONG</h1>
   </header>
 
   <nav class="navbar navbar-expand-sm bg-light" data-spy="affix" data-offset-top="60">
@@ -38,7 +38,7 @@
   </nav>
 
   <content id="Home">
-    <h2 class="h_heading">H E L L O</h2>
+    <h2 class="h_heading">H E Y</h2>
     <div> to be updated...
     </div>
   </content>
@@ -100,21 +100,38 @@
 
   <content id="contact" class="fullPage">
     <h2 class="h_heading">C O N T A C T</h2>
-      <form action="/action_page.php">
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="text" id="email" placeholder="Enter your email" name="email">
+    <p> Check out my <a href="img/current_resume.pdf" target="_blank"> current resume </a></p>
+    <p> Send me a <em>message</em> </p>
+    <form action="MAILTO:amycsong98@gmail.com?subject=Hey%20Amy!" id="contactForm" name="contactForm" role="form" method="post" enctype="text/plain">
+      <div class="container-fluid">
+        <div class="row">
+            <input id="name" name="Name" placeholder="name" type="text" required>
+            <input id="email" name="Email" placeholder="email@email.com" type="email" required>
+
         </div>
-        <div class= "form-group">
-          <label for="msg">Leave me a message:</label>
-          <input type="text" id="msg" placeholder="..." name = "msg">
-        </div>
-        <button id="submitButton" type="submit">Send</button>
-      </form>
+      </div>
+      <textarea cols="30" rows="10" id="message" name="Message" placeholder="Message..." required> </textarea>
+      <br>
+      <input type="submit" value="submit">
+    </form>
+    <br>
+      <div id="socialMedia">
+          <h3>Find me here:</h3>
+          <a href="mailto:amycsong98@gmail.com?Subject=Hey%20Amy!">
+            <img src="img/email.png" class=contactImg><p>Email</p>
+          </a><br>
+          <a href="http://www.linkedin.com/in/amycsong98" target="_blank">
+            <img src="img/linkedin.png" class=contactImg><p>LinkedIn</p>
+          </a><br>
+          <a href="http://www.github.com/amycsong98" target="_blank">
+            <img src="img/github.png" class=contactImg><p>GitHub</p>
+          </a><br>
+      </div>
+
   </content>
 
   <footer>
-    <p> Created by: Amy Song </p>
+    <p> ACS &copy;</p>
   </footer>
 </body>
 </html>

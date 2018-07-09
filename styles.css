@@ -4,6 +4,7 @@ body {
   font-family: "Georgia", "Times New Roman", Times, serif;
   background-color: #EAE7DC;
   color: black;
+  margin: 10px;
 }
 
 header {
@@ -18,7 +19,6 @@ header h1 {
   padding: 10px;
   font-variant: small-caps;
   font-weight: normal;
-  font-style: italic;
   background-color: #D8C3A5;
 }
 
@@ -60,12 +60,8 @@ footer {
     display: table;
     width: 100%;
     height: 100%;
-	padding-top: 85px;
-	padding-bottom: 25px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	  padding-top: 85px;
+	  padding-bottom: 25px;
 }
 
 
@@ -121,62 +117,78 @@ footer {
   clear: both;
 }
 
-#contact{
+#contact {
   width: 100%;
   margin-bottom: 50px;
+  text-align: left;
+  align: left;
 }
 
-input[type=text], select, textarea{
-  padding: 10px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  resize:vertical;
+#contact p {
+  font-size: 15px;
 }
 
-#email{
-  width: 60%;
+.contactImg {
+  height: 50px;
+  width: 50px;
 }
 
-#msg{
-  width: 50%;
-  height: 150px;
-}
-
-label{
-  padding: 10px;
+#socialMedia p {
   display: inline-block;
-
 }
-input[type=submit] {
-  background-color: pink;
-}
-
-input[type=submit]:hover {
-  background-color: red;
-}
-
-#submitButton {
-  display: inline-block;
-  padding: 10pt;
-  font-size: 12px;
-  cursor: pointer;
+#socialMedia h3 {
+  background-color: #E85A4F;
   text-align: center;
-  color: white;
-  background-color: pink;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 5px #999;
+}
+#socialMedia {
+  width: 35%;
+  padding: 20px;
+  float: right;
+  border: 2px solid #E85A4F;
 }
 
-#submitButton:hover {
-  background-color: red;
+#contactForm {
+  float: left;
+  box-sizing: border-box;
+  width: 60%;
+  overflow: hidden;
+  text-align: right;
 }
 
-#submitButton:active {
-  background-color: salmon;
-  box-shadow: 0 5px #777
-  transform: translateY(4px);
+#contactForm input, #contactForm textarea {
+  line-height: 20px;
+  width: 100%;
+  outline: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 20px;
 }
+
+#contactForm input[type="text"], #contactForm input[type="email"] {
+  border-bottom: 2px solid black;
+}
+
+#contactForm textarea {
+  background: none;
+  outline: none;
+  height: 150px;
+  background-color: #D8C3A5;
+  resize: none;
+}
+
+#contactForm input[type=submit] {
+  background-color: #E98074;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#contactForm input[type=submit]:hover {
+  background-color: #E85A4F
+}
+
 
 @media screen and (max-width: 600px) {
   .nav ul li{
