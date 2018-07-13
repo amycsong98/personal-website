@@ -2,31 +2,31 @@
 
 body {
   font-family: "Georgia", "Times New Roman", Times, serif;
-  background-color: #EAE7DC;
-  color: black;
+  background-color: #F4F4F4;
+  color: #373737;
   margin: 10px;
 }
 
 header {
   padding: 30px;
-  border: 5px solid black;
+  border: 5px solid #373737;
   text-align: center;
   font-size: 28px;
-  color: #000000;
+  color: #373737;
 }
 
 header h1 {
   padding: 20px;
   font-variant: small-caps;
   font-weight: normal;
-  background-color: #D8C3A5;
+  background-color: #C0B283;
 }
 
 footer {
   clear:both;
   padding:20px;
   bottom:0px;
-  background-color: #8E8D8A;
+  background-color: #373737;
   color:white;
   text-align: right;
 }
@@ -37,23 +37,23 @@ footer {
 }
 
 #navBar ul li{
-  font-size: 15px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
-#navBar a{
+#navBar a {
   text-decoration: none;
-  color: #8E8D8A;
+  color: #373737;
 }
 
-#navBar a:hover{
+#navBar a:hover:not(.active) {
   background-color: transparent;
-  color: #E85A4F;
+  color: #D4A59A;
 }
 
-#navBar a:active{
+#navBar .active {
   background-color: transparent;
-  color: #E98074
+  color: #C0B283
 }
 
 .fullPage {
@@ -70,15 +70,10 @@ footer {
   float: right;
   padding: 30px;
   width: 63%;
-  background-color: #E98074;
+  background-color: #D4A59A;
 }
 
-#aboutMe h3{
-  background-color: #E85A4F;
-  text-align: right;
-}
-
-#describe {
+#describe, #aboutMe h3{
   text-align: right;
 }
 
@@ -97,7 +92,7 @@ footer {
 
 .skills {
   float:left;
-  background-color: #D8C3A5;
+  background-color: #DCD0C0;
   padding: 0px 20px;
   width: 200px;
   height: 200px;
@@ -108,11 +103,11 @@ footer {
   clear: both;
   text-align: center;
   margin-top: 50px;
-  border: 2px solid black;
+  border: 2px solid #373737;
 }
 
 .skills h3 {
-  background-color: #E98074;
+  background-color: #C0B283;
   text-decoration: underline;
   text-align: center;
 }
@@ -139,8 +134,8 @@ footer {
 }
 
 #download_button {
-  background-color: #E98074;
-  color: #fff;
+  background-color: #C0B283;
+  color: #373737;
   width: auto;
   text-align: center;
   padding: 10px 20px;
@@ -148,7 +143,7 @@ footer {
 }
 
 #download_button:hover {
-  background-color: #E85A4F;
+  background-color: #D4A59A;
 }
 
 /*----- CONTACT -----*/
@@ -174,12 +169,12 @@ footer {
 
 #socialMedia h3 {
   padding: 3px;
-  background-color: #E85A4F;
+  background-color: #D4A59A;
   text-align: center;
 }
 
 #socialMedia {
-  width: 37%;
+  width: 32%;
   padding: 20px;
   float: right;
 }
@@ -189,9 +184,9 @@ footer {
 }
 
 #sendMsg p {
-  width: 60%;
+  width: 65%;
   font-size: 15px;
-  background-color: #E98074;
+  background-color: #C0B283;
   padding: 3px;
   text-align: center;
 }
@@ -199,7 +194,7 @@ footer {
 #contactForm {
   float: left;
   box-sizing: border-box;
-  width: 60%;
+  width: 65%;
   overflow: hidden;
   text-align: right;
 }
@@ -215,19 +210,19 @@ footer {
 }
 
 #contactForm input[type="text"], #contactForm input[type="email"] {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #373737;
 }
 
 #contactForm textarea {
   background: none;
   outline: none;
   height: 150px;
-  background-color: #D8C3A5;
+  background-color: #DCD0C0;
   resize: none;
 }
 
 #contactForm input[type=submit] {
-  background-color: #E98074;
+  background-color: #C0B283;
   width: auto;
   text-align: center;
   padding: 10px;
@@ -235,12 +230,12 @@ footer {
 }
 
 #contactForm input[type=submit]:hover {
-  background-color: #E85A4F;
+  background-color: #D4A59A;
 }
 
 #inprocess {
   padding: 30px;
-  background-color: #D8C3A5;
+  background-color: #DCD0C0;
   height: 300px;
 }
 
