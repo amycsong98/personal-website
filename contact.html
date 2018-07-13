@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit:no">
+  <!-- CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="myScript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <title>Amy Song</title>
+</head>
+
+<body>
+  <!-- INTRO -->
+  <header>
+    <h1>AMY chaeyeon SONG</h1>
+  </header>
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm bg-light static-top">
+    <div class= "container-fluid" id="navBar">
+      <a class="navbar-brand" href="">ACS</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="projects.html">Projects</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="resume.html">Resume</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTACT -->
+  <content id="contact" class="fullPage">
+    <h2 class="h_heading">C O N T A C T</h2>
+    <div id="sendMsg">
+      <p> Send me a <em>message</em> </p>
+      <form action="MAILTO:amycsong98@gmail.com?subject=Hey%20Amy!" id="contactForm" name="contactForm" role="form" method="post" enctype="text/plain">
+        <div class="container-fluid">
+          <div class="row">
+              <input id="name" name="Name" placeholder="name" type="text" required>
+              <input id="email" name="Email" placeholder="email@email.com" type="email" required>
+          </div>
+        </div>
+        <textarea cols="30" rows="10" id="message" name="Message" placeholder="Message..." required> </textarea>
+        <br>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+    <br>
+
+    <div id="socialMedia">
+        <h3>Find me here:</h3>
+        <a href="mailto:amycsong98@gmail.com?Subject=Hey%20Amy!">
+          <img src="img/email.png" class=contactImg><p>Email</p>
+        </a><br>
+        <a href="http://www.linkedin.com/in/amycsong98" target="_blank">
+          <img src="img/linkedin.png" class=contactImg><p>LinkedIn</p>
+        </a><br>
+        <a href="http://www.github.com/amycsong98" target="_blank">
+          <img src="img/github.png" class=contactImg><p>GitHub</p>
+        </a><br>
+    </div>
+  </content>
+
+  <footer>
+    <p> ACS &copy;</p>
+  </footer>
+</body>

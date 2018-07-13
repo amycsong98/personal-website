@@ -22,123 +22,80 @@
 
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-sm bg-light navbar-static-top">
+  <nav class="navbar navbar-expand-sm bg-light static-top">
     <div class= "container-fluid" id="navBar">
-      <a class="navbar-brand" href="">ACS</a>
+      <a class="navbar-brand">ACS</a>
       <ul class="nav navbar-nav">
         <li class="nav-item" class="nav-item"><a href="#home">Home</a></li>
-        <li class="nav-item"><a href="#skills">Skills</a></li>
-        <li class="nav-item"><a href="#projects">Projects</a></li>
-        <li class="nav-item"><a href="#contact">Contact</a></li>
+        <li class="nav-item"><a href="projects.html">Projects</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="resume.html">Resume</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
 
 
   <!-- HOME -->
-  <content id="Home">
+  <content id="Home" class="fullPage">
     <h2 class="h_heading">H E Y</h2>
     <img src="img/me.png" class="photo"></img>
     <div id="aboutMe">
       <h3> Hey I'm <em>Amy</em>.</h3>
-      <p>
-          I'm a second year student at Colgate University
-          and my intended majors are
-          <b>Computer Science</b> and <b>Mathematical Economics</b>.
+      <p id="describe">
+          second year student at <b>Colgate University.</b> <br>
+          majoring in <b>Computer Science</b> and <b>Mathematical Economics</b>. <br>
+          interested in <b>design</b> and <b>programming</b>.
       </p>
     </div>
-    <p id="resume"> Check out my <a href="img/current_resume.pdf" target="_blank"> <em>resume</em> </a></p>
-  </content>
 
+    <!-- SKILLS -->
+    <div id="skills">
+      <h2 class="h_heading">S K I L L S</h2>
+      <div class="skills">
+        <h3>Languages</h3>
+        <u1>
+          <li>Python</li>
+          <li>Java</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+        </u1>
+      </div>
 
-  <!-- SKILLS -->
-  <content id="skills" class="fullPage">
-    <h2 class="h_heading">S K I L L S</h2>
-    <div class="skills">
-      <h3>Languages</h3>
-      <u1>
-        <li>Python</li>
-        <li>Java</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>JQuery</li>
-      </u1>
-    </div>
+      <div class="skills">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Atom</li>
+        </u1>
+      </div>
 
-    <div class="skills">
-      <h3>Tools</h3>
-      <ul>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Atom</li>
-      </u1>
-    </div>
+      <div class="skills">
+        <h3>Adobe</h3>
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+        </u1>
+      </div>
 
-    <div class="skills">
-      <h3>Adobe</h3>
-      <ul>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li></li>
-      </u1>
-    </div>
+      <div class="skills">
+        <h3>Microsoft</h3>
+        <ul>
+          <li>Word</li>
+          <li>PowerPoint</li>
+          <li>Excel</li>
+        </u1>
+      </div>
 
-    <div class="skills">
-      <h3>Microsoft</h3>
-      <ul>
-        <li>Word</li>
-        <li>PowerPoint</li>
-        <li>Excel</li>
-      </u1>
-    </div>
-
-    <div class="skills">
-      <h3>OS</h3>
-      <ul>
-        <li>Linux</li>
-      </u1>
-    </div>
-  </content>
-
-  <!-- PROJECTS -->
-  <content id="projects" class="fullPage">
-    <h2 class="h_heading">P R O J E C T S</h2>
-    <div id=inprocess>
-      - - to be updated - -
-    </div>
-  </content>
-
-  <!-- CONTACT -->
-  <content id="contact" class="fullPage">
-    <h2 class="h_heading">C O N T A C T</h2>
-    <div id="sendMsg">
-      <p> Send me a <em>message</em> </p>
-      <form action="MAILTO:amycsong98@gmail.com?subject=Hey%20Amy!" id="contactForm" name="contactForm" role="form" method="post" enctype="text/plain">
-        <div class="container-fluid">
-          <div class="row">
-              <input id="name" name="Name" placeholder="name" type="text" required>
-              <input id="email" name="Email" placeholder="email@email.com" type="email" required>
-          </div>
-        </div>
-        <textarea cols="30" rows="10" id="message" name="Message" placeholder="Message..." required> </textarea>
-        <br>
-        <input type="submit" value="submit">
-      </form>
-    </div>
-    <br>
-
-    <div id="socialMedia">
-        <h3>Find me here:</h3>
-        <a href="mailto:amycsong98@gmail.com?Subject=Hey%20Amy!">
-          <img src="img/email.png" class=contactImg><p>Email</p>
-        </a><br>
-        <a href="http://www.linkedin.com/in/amycsong98" target="_blank">
-          <img src="img/linkedin.png" class=contactImg><p>LinkedIn</p>
-        </a><br>
-        <a href="http://www.github.com/amycsong98" target="_blank">
-          <img src="img/github.png" class=contactImg><p>GitHub</p>
-        </a><br>
+      <div class="skills">
+        <h3>OS</h3>
+        <ul>
+          <li>Linux</li>
+        </u1>
+      </div>
     </div>
   </content>
 
