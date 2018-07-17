@@ -31,12 +31,36 @@ footer {
   text-align: right;
 }
 
+/*----- LOGO -----*/
+#PageLoad {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+}
+
+#nextButton {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #C0B283;
+    color: #373737;
+    margin-left: 45%;
+}
+
+#nextButton:hover {
+  background-color: #D4A59A;
+}
 /*----- NAVBAR -----*/
 #navBar ul{
   list-style: none;
 }
 
 #navBar ul li{
+  margin-top: 10px;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -54,6 +78,11 @@ footer {
 #navBar .active {
   background-color: transparent;
   color: #C0B283
+}
+
+#logo {
+  width:50px;
+  height:auto;
 }
 
 .fullPage {
@@ -161,6 +190,12 @@ footer {
 .contactImg {
   height: 50px;
   width: 50px;
+}
+
+#contactLogo {
+  float: right;
+  width: 32%;
+  height: auto;
 }
 
 #socialMedia p {
