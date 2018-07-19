@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit:no">
   <!-- CSS -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="mdb.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Amy Song</title>
 </head>
@@ -24,11 +25,11 @@
           <img src="img/logo.png" id="logo">
       </a>
       <ul class="nav navbar-nav mr-auto">
-        <li class="nav-item" ><a class="active" href="home.html">Home</a></li>
-        <li class="nav-item"><a href="projects.html">Projects</a></li>
-        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a href="resume.html">Resume</a></li>
-        <li class="nav-item"><a href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="active" href="home.html">Home</a></li>
+        <li data-animation="1" class="nav-item"><a href="projects.html">Projects</a></li>
+        <li data-animation="1" class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li data-animation="1" class="nav-item"><a href="resume.html">Resume</a></li>
+        <li data-animation="1" class="nav-item"><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -37,7 +38,7 @@
   <content id="Home" class="fullPage">
     <h2 class="h_heading">H E Y</h2>
     <img src="img/me.png" class="photo"></img>
-    <div id="aboutMe">
+    <div id="aboutMe" class="animated fadeInRight">
       <h3> Hey I'm <em>Amy</em>.</h3>
       <p id="describe">
           second year student at <b>Colgate University.</b> <br>
@@ -102,6 +103,7 @@
 
   <!-- JAVASCRIPT -->
   <script src="myScript.js"></script>
+  <script src="mdb.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
