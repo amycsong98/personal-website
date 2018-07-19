@@ -33,8 +33,8 @@ footer {
 
 /*----- LOGO -----*/
 #PageLoad {
-  width: 80%;
-  height: auto;
+  height: 80%;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -54,6 +54,7 @@ footer {
 #nextButton:hover {
   background-color: #D4A59A;
 }
+
 /*----- NAVBAR -----*/
 #navBar ul{
   list-style: none;
@@ -153,6 +154,48 @@ footer {
   clear: both;
 }
 
+/*----- PORTFOLIO -----*/
+#port-intro {
+  padding: 10px;
+  background-color: #DCD0C0;
+  text-align: center;
+  color: #373737;
+}
+
+.artwork {
+  width = 100%;
+  padding: 10px;
+}
+
+.artwork h3 {
+  padding: 10px;
+  text-align: center;
+  color: #373737;
+  background-color: #C0B283;
+}
+
+.artwork-desc {
+  text-align: right;
+  padding: 20px;
+  float: right;
+  width: 38%;
+  color: #373737;
+  background-color: #D4A59A;
+}
+
+.a1photo {
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+.a2photo {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  height: auto;
+}
+
 /*----- RESUME -----*/
 #pdf_holder {
     padding-bottom: 100%;
@@ -174,6 +217,7 @@ footer {
 #download_button:hover {
   background-color: #D4A59A;
 }
+
 
 /*----- CONTACT -----*/
 #contact {
@@ -200,6 +244,7 @@ footer {
 
 #socialMedia p {
   display: inline-block;
+  font-size: 13px;
 }
 
 #socialMedia h3 {
