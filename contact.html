@@ -10,6 +10,24 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
   <title>Amy Song</title>
+  <style>
+  @media screen and (max-width: 600px) {
+    #sendMsg p , #contactForm, #socialMedia, #contactLogo {
+      width: 100%;
+      height: auto;
+    }
+    
+    #clearr {
+      clear: both;
+      margin-bottom: 10px
+    }
+
+    #navBar ul li{
+      margin-top: 0px;
+      font-size: 12px;
+    }
+  }
+  </style>
 </head>
 
 <body>
@@ -43,7 +61,7 @@
     <div>
       <img src="img/logo.png"id="contactLogo">
     </div>
-
+    <div id="clearr"></div>
     <div id="sendMsg">
       <p> Send me a <em>message</em> </p>
       <form action="MAILTO:amycsong98@gmail.com?subject=Hey%20Amy!" id="contactForm" name="contactForm" role="form" method="post" enctype="text/plain">

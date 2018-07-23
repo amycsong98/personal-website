@@ -1,5 +1,20 @@
 * { box-sizing: border-box;}
 
+@media screen and (max-width: 800px) {
+  header h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
+
 body {
   font-family: "Georgia", "Times New Roman", Times, serif;
   background-color: #F4F4F4;
@@ -328,11 +343,4 @@ footer {
   padding: 30px;
   background-color: #DCD0C0;
   height: 300px;
-}
-
-@media screen and (max-width: 600px) {
-  .nav ul li{
-    float: none;
-    width= 100:
-  }
 }
