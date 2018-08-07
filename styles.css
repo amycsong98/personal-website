@@ -1,18 +1,7 @@
 * { box-sizing: border-box;}
 
-@media screen and (max-width: 800px) {
-  header h1 {
-    font-size: 28px;
-  }
-}
 @media screen and (max-width: 600px) {
-  header {
-    padding: 20px 10px;
-  }
 
-  header h1 {
-    font-size: 20px;
-  }
 }
 
 body {
@@ -22,19 +11,9 @@ body {
   margin: 10px;
 }
 
-header {
-  padding: 30px;
-  border: 5px solid #373737;
-  text-align: center;
-  font-size: 28px;
-  color: #373737;
-}
-
-header h1 {
-  padding: 20px;
-  font-variant: small-caps;
-  font-weight: normal;
-  background-color: #C0B283;
+.headerPic {
+  margin-top: 20px;
+  width: 100%;
 }
 
 footer {
