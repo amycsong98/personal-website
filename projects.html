@@ -10,21 +10,45 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Amy Song</title>
   <style>
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
+    .nav ul li{
+        float: none;
+        width:100%;
+    }
     #navBar ul li{
-      margin-top: 0px;
       font-size: 12px;
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 0px;
+      background-color: #DCD0C0;
+    }
+    #logo {
+      display:none;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .photo, #aboutMe {
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .skills {
+      width: 40%;
+    }
+  }
+
   </style>
 </head>
 
 <body>
   <!-- INTRO -->
   <header>
-    <img src="img/header2.jpeg" id="headerPic" alt="AMY chaeyeon SONG">
+    <picture>
+      <source srcset="img/header1.jpeg" media="(max-width:600px)">
+      <img src="img/header2.jpeg" class="headerPic" alt="AMY chaeyeon SONG">
+    </picture>
   </header>
-
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-sm bg-light static-top">

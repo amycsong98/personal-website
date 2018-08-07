@@ -12,7 +12,7 @@ body {
 }
 
 .headerPic {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -66,18 +66,30 @@ footer {
 }
 
 #navBar a:hover:not(.active) {
-  background-color: transparent;
-  color: #D4A59A;
+  background-color: #D4A59A;
 }
 
 #navBar .active {
-  background-color: transparent;
-  color: #C0B283
+  background-color: #C0B283
 }
 
 #logo {
   width:50px;
   height: auto;
+}
+
+#ddbtn{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }
 
 .fullPage {
