@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="mdb.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
-
   <title>Amy Song</title>
   <style>
   @media screen and (max-width: 800px) {
@@ -20,59 +19,48 @@
       font-size: 12px;
       text-align: center;
       text-decoration: underline;
-      margin-top: 0px;
+      margin: 0px;
+      padding: 0px;
       background-color: #DCD0C0;
     }
+    #logo {
+      display:none;
+    }
   }
-
+  }
   </style>
 </head>
 
 <body>
   <!-- INTRO -->
   <header>
-    <picture>
-      <source srcset="img/header1.jpeg" media="(max-width:600px)">
-      <img src="img/header2.jpeg" class="headerPic" alt="AMY chaeyeon SONG">
-    </picture>
+    <p> Amy Song <p>
   </header>
 
 
   <!-- NAVBAR -->
   <div class="line"></div>
   <nav class="navbar navbar-expand-sm bg-light static-top">
-    <div class= "container-fluid" id="navBar">
+    <div class= "container-fluid w-100 justify-content-center" id="navBar">
       <ul class="nav navbar-nav mr-auto">
-        <li class="nav-item"><a href="home.html">Home</a></li>
-        <li class="nav-item"><a href="projects.html">Projects</a></li>
-        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="active" href="resume.html">Resume</a></li>
-        <li class="nav-item"><a href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="active" href="aboutMe.html">About</a></li>
+        <li class="nav-item"><a href="studioart.html">Projects</a></li>
+        <li class="nav-item"><a href="places.html">Places</a></li>
+        <li class="nav-item"><a href="home.html">Portfolio</a></li>
       </ul>
     </div>
   </nav>
   <div class="line"></div>
 
-  <content id="resume" class="fullPage">
-    <h2 class="h_heading">R E S U M E</h2>
-    <div class="embed-responsive" id="pdf_holder">
-        <object class="embed-responsive-item" data="img/current_resume.pdf" type="application/pdf" internalinstanceid="1" title="">
-            <p>download the file <a href="img/current_resume.pdf">here</a></p>
-        </object>
-    </div>
-    <div align="center" id="btndiv">
-        <a class="btn" href="img/current_resume.pdf" role="button" id="download_button">Download</a>
-    </div>
-
-  </content>
   <footer>
     <p> ACS &copy;</p>
   </footer>
 
+  <!-- JAVASCRIPT -->
   <script src="myScript.js"></script>
   <script src="mdb.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
 </body>
+</html>

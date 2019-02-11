@@ -50,14 +50,22 @@ footer {
 }
 
 /*----- NAVBAR -----*/
+/* .line {
+  border: 1px dotted #373737;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}*/
+
 #navBar ul{
   list-style: none;
 }
 
 #navBar ul li{
-  margin-top: 12px;
-  font-size: 16px;
+  margin-top: 13px;
+  font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #navBar a {
@@ -71,11 +79,6 @@ footer {
 
 #navBar .active {
   background-color: #C0B283
-}
-
-#logo {
-  width:50px;
-  height: auto;
 }
 
 #ddbtn{
@@ -182,7 +185,7 @@ footer {
 
 .artwork {
   width = 100%;
-  padding: 10px;
+  margin: 10px
 }
 
 .artwork h3 {
@@ -193,10 +196,11 @@ footer {
 }
 
 .artwork-desc {
+  margin: 10px;
   text-align: right;
   padding: 20px;
   float: right;
-  width: 38%;
+  width: 36%;
   color: #373737;
   background-color: #D4A59A;
 }
@@ -209,7 +213,7 @@ footer {
 
 .a2photo {
   float: left;
-  padding: 10px;
+  padding: 5px;
   width: 25%;
   height: auto;
 }
@@ -250,7 +254,7 @@ footer {
 }
 
 .contactImg {
-  width: 32%;
+  width: 50px;
   height: auto;
 }
 
@@ -265,7 +269,7 @@ footer {
   font-size: 13px;
 }
 
-#socialMedia h3 {
+#socialMedia h4 {
   padding: 3px;
   background-color: #D4A59A;
   text-align: center;

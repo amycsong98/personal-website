@@ -23,22 +23,17 @@
       margin-top: 0px;
       background-color: #DCD0C0;
     }
-    #logo {
-      display:none;
+    #socialMedia h4 {
+      font-size: 12px;
+    }
+    .contactImg {
+      width: 30px;
+      height: auto;
+    }
+    #socialMedia p {
+      font-size: 11px;
     }
   }
-
-  @media screen and (max-width: 600px) {
-    .photo, #aboutMe {
-      float: none;
-      width: 100%;
-      margin-top: 10px;
-    }
-    .skills {
-      width: 40%;
-    }
-  }
-
   </style>
 </head>
 
@@ -53,11 +48,9 @@
 
 
   <!-- NAVBAR -->
+  <div class="line"></div>
   <nav class="navbar navbar-expand-sm bg-light static-top">
     <div class= "container-fluid" id="navBar">
-      <a class="navbar-brand">
-          <img src="img/logo.png" id="logo">
-      </a>
       <ul class="nav navbar-nav mr-auto">
         <li class="nav-item"><a href="home.html">Home</a></li>
         <li class="nav-item"><a href="projects.html">Projects</a></li>
@@ -67,6 +60,7 @@
       </ul>
     </div>
   </nav>
+  <div class="line"></div>
 
   <!-- CONTACT -->
   <content id="contact" class="fullPage">
@@ -94,7 +88,7 @@
     <br>
 
     <div id="socialMedia">
-        <h3>Find me here:</h3>
+        <h4>Find me here:</h4>
         <a href="mailto:amycsong98@gmail.com?Subject=Hey%20Amy!">
           <img src="img/email.png" class=contactImg><p>Email</p>
         </a><br>
