@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="mdb.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Amy Song</title>
+  <link rel="icon" type="image/x-icon" href="img/logo1.jpeg">
   <style>
   @media screen and (max-width: 600px) {
     #PageLoad {
@@ -16,21 +17,48 @@
       height: auto;
       margin-top: 100px;
     }
-
-    #nextButton {
-      margin-left: 33%;
+  }
+  <style>
+  @media screen and (max-width: 800px) {
+    .nav ul li{
+        float: none;
+        width:100%;
+    }
+    #navBar ul li{
+      font-size: 12px;
+      text-align: center;
+      text-decoration: underline;
+      margin: 0px;
+      padding: 0px;
+      background-color: #DCD0C0;
+    }
+    #logo {
+      display:none;
     }
   }
+  }
+  </style>
   </style>
 </head>
 
 <body>
+  <!-- NAVBAR -->
+  <div class="line"></div>
+  <nav class="navbar navbar-expand-sm bg-light static-top">
+    <div class= "container-fluid w-100 justify-content-center" id="navBar">
+      <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item"><a href="home.html">about</a></li>
+        <li class="nav-item"><a href="projects.html">projects</a></li>
+        <li class="nav-item"><a href="resume.html">resume</a></li>
+        <li class="nav-item"><a href="contact.html">contact</a></li>
+        <li class="nav-item"><a href="blog.html">blog</a></li>
+      </ul>
+    </div>
+  </nav>
   <content class="fullPage">
   <div class=".m-scene">
-    <img src="img/logo.png" id="PageLoad">
+    <img src="img/logo4.jpeg" id="PageLoad">
   </div>
-
-  <a href= "home.html" id="nextButton" class="animated fadeInLeft wow" data-wow-delay="1.2s">Enter Website &raquo</a>
 
   <script src="myScript.js"></script>
   <script src="mdb.min.js"></script>
